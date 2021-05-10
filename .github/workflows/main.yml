@@ -1,11 +1,11 @@
-name: Data Updates
+name: Good_Game
 on:
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
 jobs:
   liquipedia:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latesthttps://liquipedia.net/ageofempires/Good_Game
     steps:
       - name: Set up Python
         uses: actions/setup-python@v2
